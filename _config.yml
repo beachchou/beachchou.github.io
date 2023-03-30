@@ -1,0 +1,31 @@
+title: 周榆淞
+description: 周榆淞的个人网站
+
+lang: zh-CN
+
+collections:
+  docs:
+    output: true
+
+# Front matter defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: document
+  -
+    scope:
+      path: ""
+      type: "docs"
+    values:
+      layout: document
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: page
+
+remote_theme: beachchou/clear
